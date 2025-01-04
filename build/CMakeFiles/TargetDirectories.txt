@@ -1,0 +1,3 @@
+/home/jdselsor/Projects/Files/retro_game/build/CMakeFiles/retro_game.dir
+/home/jdselsor/Projects/Files/retro_game/build/CMakeFiles/edit_cache.dir
+/home/jdselsor/Projects/Files/retro_game/build/CMakeFiles/rebuild_cache.dir

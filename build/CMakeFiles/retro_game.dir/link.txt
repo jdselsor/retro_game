@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/retro_game.dir/src/application.cpp.o CMakeFiles/retro_game.dir/src/main.cpp.o -o retro_game  /usr/lib/x86_64-linux-gnu/libSDL2main.a /usr/lib/x86_64-linux-gnu/libSDL2.so 

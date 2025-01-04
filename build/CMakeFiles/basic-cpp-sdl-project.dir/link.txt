@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/basic-cpp-sdl-project.dir/src/main.cc.o -o basic-cpp-sdl-project  /usr/lib/x86_64-linux-gnu/libSDL2main.a /usr/lib/x86_64-linux-gnu/libSDL2.so 
