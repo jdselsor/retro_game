@@ -7,6 +7,8 @@
 
 #include <SDL2/SDL.h>
 
+#include "graphics.h"
+
 namespace retro_game {
     class Screen {
         public:
@@ -17,6 +19,8 @@ namespace retro_game {
             void clearPixels ();
             void setPixel (uint32_t, uint32_t, uint32_t);
             uint32_t getPixel (uint32_t, uint32_t);
+
+            void fillRect (uint32_t, uint32_t, uint32_t, uint32_t, retro_game::Color);
 
             inline uint16_t getScreenWidth () const { return m_screenWidth; }
             inline uint16_t getScreenHeight () const { return m_screenHeight; }
@@ -35,6 +39,8 @@ namespace retro_game {
             Application (std::string, uint16_t, uint16_t);
             ~Application ();
 
+            void launch ();
+
             inline Screen getScreen () const { return m_screen; }
 
         private:
@@ -50,7 +56,7 @@ namespace retro_game {
             bool m_quit;
 
             void initSDL ();
-            void run ();
+            //void run ();
     };
 }
 
