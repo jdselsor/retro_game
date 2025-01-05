@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jdselsor/Projects/Files/retro_game/src/application.cpp" "CMakeFiles/retro_game.dir/src/application.cpp.o" "gcc" "CMakeFiles/retro_game.dir/src/application.cpp.o.d"
+  "/home/jdselsor/Projects/Files/retro_game/src/graphics.cpp" "CMakeFiles/retro_game.dir/src/graphics.cpp.o" "gcc" "CMakeFiles/retro_game.dir/src/graphics.cpp.o.d"
   "/home/jdselsor/Projects/Files/retro_game/src/main.cpp" "CMakeFiles/retro_game.dir/src/main.cpp.o" "gcc" "CMakeFiles/retro_game.dir/src/main.cpp.o.d"
   )
 

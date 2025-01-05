@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/retro_game.dir/src/application.cpp.o"
   "CMakeFiles/retro_game.dir/src/application.cpp.o.d"
+  "CMakeFiles/retro_game.dir/src/graphics.cpp.o"
+  "CMakeFiles/retro_game.dir/src/graphics.cpp.o.d"
   "CMakeFiles/retro_game.dir/src/main.cpp.o"
   "CMakeFiles/retro_game.dir/src/main.cpp.o.d"
   "retro_game"

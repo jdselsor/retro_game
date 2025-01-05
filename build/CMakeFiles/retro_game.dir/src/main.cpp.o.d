@@ -315,4 +315,5 @@ CMakeFiles/retro_game.dir/src/main.cpp.o: \
  /usr/local/include/SDL2/SDL_system.h /usr/local/include/SDL2/SDL_timer.h \
  /usr/local/include/SDL2/SDL_version.h \
  /usr/local/include/SDL2/SDL_locale.h /usr/local/include/SDL2/SDL_misc.h \
- /home/jdselsor/Projects/Files/retro_game/include/application.h
+ /home/jdselsor/Projects/Files/retro_game/include/application.h \
+ /home/jdselsor/Projects/Files/retro_game/include/graphics.h
