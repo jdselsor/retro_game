@@ -25,6 +25,32 @@ namespace retro_game {
         BLUE        = 0x9b4550,
         PURPLE      = 0xa357a0
     };
+
+    class Image {
+        public:
+            Image ();
+            Image (uint32_t, uint32_t, uint32_t);
+            Image (std::string);
+            ~Image ();
+
+            void setTransparentColor (uint32_t val) { m_transparentColor = val; }
+            uint32_t getWidth () const { return m_width; }
+            uint32_t getHeight () const { return m_height; }
+            uint32_t getTransparentColor () const { return m_transparentColor; }
+            std::vector<uint32_t> getData () const { return m_data; }
+        private:
+            uint32_t m_width;
+            uint32_t m_height;
+            uint32_t m_transparentColor;
+
+            std::vector<uint32_t> m_data;
+    };
+
+    inline uint8_t getRedComponentRGB (uint32_t color) { return (color >> 16) & 0xff; }
+    inline uint8_t getGreenComponentRGB (uint32_t color) { return (color >> 8) & 0xff; } 
+    inline uint8_t getBlueComponentRGB (uint32_t color) { return (color) & 0xff; }
+    
+    inline uint32_t composeColor (uint8_t c0, uint8_t c1, uint8_t c2) { return (c0 << 16 | c1 << 8 | c2); }
 }
 
 #endif
